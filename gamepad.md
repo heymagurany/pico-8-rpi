@@ -2,8 +2,8 @@
 
 Button|Raspberry Pi
 ------|------------
-LEFT  |GPIO6
-RIGHT |GPIO13
+LEFT  |GPIO5
+RIGHT |GPIO6
 UP    |GPIO19
 DOWN  |GPIO26
 O     |GPIO16
@@ -24,8 +24,8 @@ Select "Two buttons + joystick"
 
 Map buttons to GPIOs
 
-    LEFT       6  # Joypad left
-    RIGHT     13  # Joypad right
+    LEFT       5  # Joypad left
+    RIGHT      6  # Joypad right
     UP        19  # Joypad up
     DOWN      26  # Joypad down
     Z         16  # 'O' button
