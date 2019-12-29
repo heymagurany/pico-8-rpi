@@ -1,5 +1,10 @@
 # Audio
 
+Channel       |Raspberry Pi
+--------------|------------
+Left Channel  |GPIO13
+Right Channel |GPIO18
+
 Add a device tree overlay to `/boot/config.txt`
 
     # Audio
@@ -7,9 +12,15 @@ Add a device tree overlay to `/boot/config.txt`
 
 ## Volume Control
 
+Button      |Raspberry Pi
+------------|------------
+Volume Up   |GPIO17
+Volume Down |GPIO27
+
 Download the volume script
 
-    # TODO
+    $ cd ~
+    $ wget https://raw.githubusercontent.com/heymagurany/pico-8-rpi/master/volume.sh
 
 Make the volume script executable
 
